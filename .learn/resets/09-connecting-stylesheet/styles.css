@@ -1,10 +1,9 @@
 * {
-	min-height: 0px;
+	border: 1px dashed red;
+	min-height: 10px;
 }
 body {
-	font-family: "Patrick Hand", cursive;
-	font-weight: 400;
-	font-style: normal;
+	background: black;
 }
 
 .postcard {
@@ -12,7 +11,6 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
-	border: 1px solid rgb(74, 75, 75);
 }
 
 .postcard-header {
@@ -22,28 +20,16 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
-	padding: 10px;
 }
 
 .postcard-header h1 {
 	width: 350px;
 	margin: 0px;
-	padding: 10px;
 }
 
 .postcard-body {
 	display: flex;
 }
-.body-left {
-	overflow: auto;
-}
-
-.body-right {
-	display: flex;
-	gap: 15px;
-	flex-direction: column;
-}
-
 .body-left p:first-child {
 	margin-top: 0px;
 }
@@ -64,12 +50,6 @@ p {
 }
 
 button {
-	background-color: rgb(70, 183, 249);
+	background-color: rgb(104, 102, 102);
 	padding: 10px;
-	color: white;
-	border: none;
-	border-radius: 5px;
-}
-button:hover {
-	background-color: rgb(79, 167, 148);
 }
